@@ -1,3 +1,27 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	Title = "IGNITE SV X",  	
+
+Text = "Pop It Remove Item",
+
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "Wait 5 Sec....",  	
+
+Text = "Loading...",
+
+})
+
+wait(5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "Load!!",  	
+
+Text = "Fun!",
+
+})
+
 getgenv().bind = "LeftControl" --keybind to delete popits near you
 getgenv().invis = true --turns you invis so people cant see you deleting their stuff (resetting will uninvis you)
 getgenv().on = true --setting this to false will stop the script
