@@ -6,13 +6,13 @@ Text = "Maru Hub",
 
 game:GetService("StarterGui"):SetCore("SendNotification",{ 	
 
-Title = "Wait 30000 Sec.....",  	
+Title = "Wait 3 Sec.....",  	
 
 Text = "Loading...",
 
 })
 
-wait(30000)
+wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification",{ 	
 
