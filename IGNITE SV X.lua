@@ -37,41 +37,8 @@ local d = Hub:NewSection("HUB")
 local Credit = Window:NewTab("Credit")
 local e = Credit:NewSection("Credit")
 
-a:NewButton("MaruHub Normal","Maru",function()
-getgenv().Key = "MARU-RGWU6-X1MNS-4DLQM-2TIWP"
-getgenv().id = "804895822796947498"
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"), true))()
-end)
-a:NewButton("MaruHub Thai","Maru", function()
-getgenv().Key = "MARU-RGWU6-X1MNS-4DLQM-2TIWP"
-getgenv().id = "804895822796947498"
-_G.Script_Language = "Thai"
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"), true))()
-end)
-
-a:NewButton("MaruHub PVP","Maru",function()
-getgenv().Key = "MARU-RGWU6-X1MNS-4DLQM-2TIWP"
-getgenv().id = "804895822796947498"
-_G.Script_Mode = "PVP"
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"), true))()
-end)
-
-a:NewButton("MaruHub Kaitan","Maru",function()
-getgenv().Key = "MARU-RGWU6-X1MNS-4DLQM-2TIWP"
-getgenv().id = "804895822796947498"
-getgenv().Script_Mode = "Kaitun_Script"
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"), true))()
-end)
-
-a:NewButton("Contifetti Event เปิด","BF",function()
-_G.AutoConfetti = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Confetti"))()
-end)
-
-a:NewButton("Contifetti Event ปิด","BF",function()
-_G.AutoConfetti = false
-loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Confetti"))()
-end)
+a:NewButton("MaruHubNewGui","Maru",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fluk11380/CvserXLua/main/CverXMas"))();
 
 b:NewButton("ควยกล้าHub","!!!",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fluk11380/-Hub/main/%E0%B8%84%E0%B8%A7%E0%B8%A2%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2hub"))()
