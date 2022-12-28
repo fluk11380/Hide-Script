@@ -39,6 +39,7 @@ local e = Credit:NewSection("Credit")
 
 a:NewButton("MaruHubNewGui","Maru",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fluk11380/CvserXLua/main/CverXMas"))();
+end)
 
 b:NewButton("ควยกล้าHub","!!!",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fluk11380/-Hub/main/%E0%B8%84%E0%B8%A7%E0%B8%A2%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2hub"))()
