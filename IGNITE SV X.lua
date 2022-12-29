@@ -36,7 +36,7 @@ local Credit = Window:NewTab("Credit")
 local e = Credit:NewSection("Credit")
 
 b:NewButton("กดแล้วมันจะคัดลอกMaruHub(ปักหมุดสคริปด้วย)","!!!",function()
-setcilpboard("loadstring(game:HttpGet("https://raw.githubusercontent.com/fluk11380/Maru-X-Fluk/main/MaruHub"))()")
+setclipboard("loadstring(game:HttpGet("https://raw.githubusercontent.com/fluk11380/Maru-X-Fluk/main/MaruHub"))()")
 end)
 
 b:NewButton("หำกล้าHub","!!!",function()
