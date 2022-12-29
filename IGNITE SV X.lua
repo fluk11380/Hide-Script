@@ -6,7 +6,7 @@ Text = "Maru Hub",
 
 game:GetService("StarterGui"):SetCore("SendNotification",{ 	
 
-Title = "Wait 3 Sec.....",  	
+Title = "Wait 3 Sec....",  	
 
 Text = "Loading...",
 
@@ -26,10 +26,8 @@ local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("IGNITE-SV-X | Maru Hub| V1","DarkTheme")
 
 
-local Tab = Window:NewTab("Main")
-local a = Tab:NewSection("Main")
-local Sec = Window:NewTab("Sec")
-local b = Sec:NewSection("Sec")
+local Sec = Window:NewTab("Main")
+local b = Sec:NewSection("Main")
 local Other = Window:NewTab("Other")
 local c = Other:NewSection("Other")
 local Hub = Window:NewTab("HUB")
@@ -37,11 +35,11 @@ local d = Hub:NewSection("HUB")
 local Credit = Window:NewTab("Credit")
 local e = Credit:NewSection("Credit")
 
-a:NewButton("MaruHubNewGui","Maru",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fluk11380/CvserXLua/main/CverXMas"))();
+b:NewButton("กดแล้วมันจะคัดลอกMaruHub(ปักหมุดสคริปด้วย)","!!!",function()
+setcilpboard("loadstring(game:HttpGet("https://raw.githubusercontent.com/fluk11380/Maru-X-Fluk/main/MaruHub"))()")
 end)
 
-b:NewButton("ควยกล้าHub","!!!",function()
+b:NewButton("หำกล้าHub","!!!",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fluk11380/-Hub/main/%E0%B8%84%E0%B8%A7%E0%B8%A2%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2hub"))()
 end)
 
@@ -77,7 +75,7 @@ c:NewButton("Fixlag","???",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/1dXmmH9Y"))()
 end)
 
-c:NewButton("InfJump","LoL",function()
+c:Button("InfJump","LoL",function()
 local InfiniteJumpEnabled = true
 game:GetService("UserInputService").JumpRequest:connect(function()
 	if InfiniteJumpEnabled then
@@ -86,11 +84,11 @@ game:GetService("UserInputService").JumpRequest:connect(function()
 end)
 end)
 
-c:NewSlider("Speed", "SliderInfo", 200, 0, function(s) -- 200 (MaxValue) | 0 (MinValue)
+c:Slider("Speed", "SliderInfo", 200, 0, function(s) -- 200 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
-c:NewSlider("Jump","SliderInfo",200,0, function(s)
+c:Slider("Jump","SliderInfo",200,0, function(s)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
