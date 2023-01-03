@@ -30,11 +30,7 @@ local Sec = Window:NewTab("Main")
 local b = Sec:NewSection("Main")
 
 b:NewButton("กดแล้วมันจะคัดลอกแล้วก็เอาสคริปในนั้น(ปักหมุดสคริปด้วย)","!!!",function()
-setclipboard("https://raw.githubusercontent.com/fluk11380/Maru-X-Fluk/main/MaruHub")
-end)
-
-b:NewButton("หำกล้าHub","!!!",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fluk11380/-Hub/main/%E0%B8%84%E0%B8%A7%E0%B8%A2%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2hub"))()
+setclipboard("https://raw.githubusercontent.com/fluk11380/-Hub/main/%E0%B8%84%E0%B8%A7%E0%B8%A2%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2hub")
 end)
 
 b:NewButton("Pop It Trading","Key Youstinkashell",function()
